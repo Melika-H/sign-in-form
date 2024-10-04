@@ -1,0 +1,75 @@
+@font-face {
+    font-family: vazir;
+    src: url("font/vazir/Vazir.eot") format("opentype"),
+    url("font/vazir/Vazir.ttf") format("truetype"),
+    url("font/vazir/Vazir.woff") format("woff"),
+    url("font/vazir/Vazir.woff2") format("woff2");
+}
+
+*{
+    direction: rtl;
+    font-family: vazir;
+    color: #333;
+}
+
+.margin-auto{
+    margin: 0 auto;
+    display: block;
+}
+
+.login-form{
+    max-width: 500px;
+    margin-top: 50px;
+    border: 2px dashed lightslategray;
+    border-radius: 20px;
+}
+
+.form-input{
+    width: 300px;
+    height: 38px;
+    padding: 14px;
+    background-color: #dcdcdc;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+.form-input:focus{
+    outline: none;
+    border: 2px solid tomato;
+    transition: 0.5s;
+}
+
+.image-form{
+    border-bottom: 2px solid thistle;
+    margin: 0 20px;
+}
+
+.content-form{
+    margin-top: 20px;
+}
+
+.form-btn{
+    padding: 6.5px 15px;
+    border-radius: 6px;
+    background-color: tomato;
+    border: 2px solid tomato;
+    color: white;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.form-btn:hover{
+    background-color: white;
+    color: tomato;
+    transition: 0.2s;
+}
+
+.caption-form{
+    font-size: 12.5px;
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    opacity: 0.7;
+}
